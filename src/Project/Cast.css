@@ -1,0 +1,43 @@
+
+.Cast{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    color: white; 
+    font-size: 20px;
+}
+.left{
+    margin: 0;
+    padding: 0;
+}
+.cast-img{
+height: 250px;
+width: 250px;
+border-radius: 50%;
+border: 10px solid transparent;
+box-shadow: 1px 1px 10px wheat;
+}
+.Profile{
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+.cast__movie{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    overflow: scroll;    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+@media screen  and (max-width:600px){
+    .Profile{
+        flex-direction: column;
+    }
+}
